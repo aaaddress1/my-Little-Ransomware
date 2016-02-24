@@ -1,0 +1,9 @@
+C:\Users\aaaddress1\Desktop\CSharpRansomware\Ransomware\Ransomware\bin\Release\Ransomware.exe
+C:\Users\aaaddress1\Desktop\CSharpRansomware\Ransomware\Ransomware\bin\Release\Ransomware.pdb
+C:\Users\aaaddress1\Desktop\CSharpRansomware\releaseBinary\Ransomware.exe
+C:\Users\aaaddress1\Desktop\CSharpRansomware\releaseBinary\Ransomware.pdb
+C:\Users\aaaddress1\Desktop\CSharpRansomware\Ransomware\Ransomware\obj\Release\Ransomware.Properties.Resources.resources
+C:\Users\aaaddress1\Desktop\CSharpRansomware\Ransomware\Ransomware\obj\Release\Ransomware.csproj.GenerateResource.Cache
+C:\Users\aaaddress1\Desktop\CSharpRansomware\Ransomware\Ransomware\obj\Release\Ransomware.exe
+C:\Users\aaaddress1\Desktop\CSharpRansomware\Ransomware\Ransomware\obj\Release\Ransomware.pdb
+C:\Users\aaaddress1\Desktop\CSharpRansomware\Ransomware\Ransomware\obj\Release\Ransomware.csprojResolveAssemblyReference.cache

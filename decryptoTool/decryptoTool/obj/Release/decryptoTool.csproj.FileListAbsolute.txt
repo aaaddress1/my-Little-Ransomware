@@ -1,0 +1,9 @@
+C:\Users\aaaddress1\Desktop\CSharpRansomware\decryptoTool\decryptoTool\bin\Release\decryptoTool.exe
+C:\Users\aaaddress1\Desktop\CSharpRansomware\decryptoTool\decryptoTool\bin\Release\decryptoTool.pdb
+C:\Users\aaaddress1\Desktop\CSharpRansomware\releaseBinary\decryptoTool.exe
+C:\Users\aaaddress1\Desktop\CSharpRansomware\releaseBinary\decryptoTool.pdb
+C:\Users\aaaddress1\Desktop\CSharpRansomware\decryptoTool\decryptoTool\obj\Release\decryptoTool.Properties.Resources.resources
+C:\Users\aaaddress1\Desktop\CSharpRansomware\decryptoTool\decryptoTool\obj\Release\decryptoTool.csproj.GenerateResource.Cache
+C:\Users\aaaddress1\Desktop\CSharpRansomware\decryptoTool\decryptoTool\obj\Release\decryptoTool.exe
+C:\Users\aaaddress1\Desktop\CSharpRansomware\decryptoTool\decryptoTool\obj\Release\decryptoTool.pdb
+C:\Users\aaaddress1\Desktop\CSharpRansomware\decryptoTool\decryptoTool\obj\Release\decryptoTool.csprojResolveAssemblyReference.cache
